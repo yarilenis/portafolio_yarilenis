@@ -66,36 +66,3 @@ export default {
   }
 };
 </script>
-<style>
-.avatar {
-  width: 180px;
-}
-.about-me {
-  background: white;
-}
-.about-me__name {
-  font-family: "Sacramento", cursive;
-  margin-top: 15px;
-}
-.social-media {
-  background: #4b4b4b;
-}
-.social-media a {
-  position: relative;
-}
-.social-media__primary {
-  color: #4b4b4b;
-  border-radius: 50%;
-  padding: 5px;
-  position: relative;
-  font-size: 20px;
-}
-.social-media .fa-circle {
-  color: white;
-  position: absolute;
-  left: -4px;
-  top: 1px;
-  z-index: 0;
-  font-size: 35px;
-}
-</style>

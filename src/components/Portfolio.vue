@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Sobre mi</h1>
+    <h1>Portafolio</h1>
     <p>{{ text }}</p>
     <div class="row">
       <div class="col-6"></div>
