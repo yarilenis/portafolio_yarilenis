@@ -4,6 +4,7 @@ import Portfolio from './Portfolio.vue';
 import Profile from './Profile.vue';
 import ScrollNav from './ScrollNav.vue';
 import Skills from './Skills.vue';
+import CardShadow from './CardShadow.vue';
 
 const components = {
   AboutMe,
@@ -12,6 +13,7 @@ const components = {
   Profile,
   ScrollNav,
   Skills,
+  CardShadow,
 };
 
 components.install = (Vue) => {

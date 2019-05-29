@@ -1,8 +1,10 @@
 .about-me {
-  background: white;
-
+  &__box {
+    background: white;
+  }
   &__name {
     font-family: "Sacramento", cursive;
+    font-size: 2rem;
     margin-top: 15px;
   }
   .avatar {
@@ -28,6 +30,24 @@
       top: 1px;
       z-index: 0;
       font-size: 35px;
+    }
+  }
+  .education {
+    &__icon {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      right: 50%;
+      background: theme-color('primary');
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      text-align: center;
+      padding: 4px 5px;
+      color: white;
+    }
+    &__hr{
+          border-top: 2px solid theme-color('primary');
     }
   }
 }

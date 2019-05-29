@@ -1,13 +1,14 @@
 <template>
-  <div class="container">
+  <div class="container about-me">
     <div class="row">
-      <div class="col-12 about-me mt-5">
+      <div class="col-12 about-me__box mt-5">
         <div class="row">
-          <div class="col-4 mt-4">
-            <div>
+          <div class="col-4 mt-4 text-center">
+            <div class="">
               <img src="/images/photo.jpg" alt="Photo" class="avatar rounded-circle" style>
             </div>
             <p class="about-me__name">Yarilenis Laverde</p>
+            <p class="text-right">Desarrollador Web</p>
           </div>
           <div class="col-8 mt-4">
             <h2>Sobre mi</h2>
@@ -39,9 +40,17 @@
           <i class="fab fa-linkedin-in social-media__primary"></i>
         </a>
       </div>
-      <div class="col-12">
-        <hr>
-        <i class="fa fa-graduation-cap"></i>
+      <div class="col-12 education mt-4 p-0">
+        <hr class="education__hr">
+        <div class="education__icon">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+      </div>
+      <div class="col-12 mt-4 p-0">
+        <CardShadow class="py-3">
+          <h4 class="text-center">Licenciada en Computación - Universidad de Carabobo <br>
+          Venezuela (2007 - 2015)</h4>
+        </CardShadow>
       </div>
     </div>
   </div>
