@@ -1,99 +1,85 @@
 <template>
-  <div class="container">
-    <div class="page-header">
-        <h1 id="timeline">Timeline</h1>
+  <div class="container mt-5">
+    <div class="page-header text-center">
+      <h1 id="timeline">Experiencia</h1>
     </div>
-    <ul class="timeline">
-        <li>
-          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
+    <ul class="timeline mt-5">
+      <li>
+        <div class="timeline-badge">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Joinnus.com</h4>
+            <h6 class="text-pink">Programador Frontend</h6>
+            <p>
+              <small class="text-muted">
+                <i class="far fa-calendar-alt"></i> Oct. 2018 - Actualmente
+              </small>
+            </p>
           </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-            </div>
+          <div class="timeline-body">
+            <p>{{ text }}</p>
           </div>
-        </li>
-        <li>
-          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Joinnus.com</h4>
+            <h6 class="text-pink">Programador Frontend</h6>
+            <p>
+              <small class="text-muted">
+                <i class="far fa-calendar-alt"></i> Oct. 2018 - Actualmente
+              </small>
+            </p>
           </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
+          <div class="timeline-body">
+            <p>{{ text }}</p>
           </div>
-        </li>
-        <li>
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-              <hr>
-              <div class="btn-group">
-                <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-                  <i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </div>
-            </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Joinnus.com</h4>
+            <h6 class="text-pink">Programador Frontend</h6>
+            <p>
+              <small class="text-muted">
+                <i class="far fa-calendar-alt"></i> Oct. 2018 - Actualmente
+              </small>
+            </p>
           </div>
-        </li>
-        <li>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
+          <div class="timeline-body">
+            <p>{{ text }}</p>
           </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-            </div>
-            <div class="timeline-body">
-              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-            </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Joinnus.com</h4>
+            <h6 class="text-pink">Programador Frontend</h6>
+            <p>
+              <small class="text-muted">
+                <i class="far fa-calendar-alt"></i> Oct. 2018 - Actualmente
+              </small>
+            </p>
           </div>
-        </li>
+          <div class="timeline-body">
+            <p>{{ text }}</p>
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
 </template>
@@ -105,12 +91,6 @@ export default {
       text: `
         Quis magna Lorem anim amet ipsum do mollit sit cillum voluptate ex nulla
         tempor. Laborum consequat non elit enim exercitation cillum aliqua
-        consequat id aliqua. Esse ex consectetur mollit voluptate est in duis
-        laboris ad sit ipsum anim Lorem. Incididunt veniam velit elit elit veniam
-        Lorem aliqua quis ullamco deserunt sit enim elit aliqua esse irure. Laborum
-        nisi sit est tempor laborum mollit labore officia laborum excepteur
-        commodo non commodo dolor excepteur commodo. Ipsum fugiat ex est consectetur
-        ipsum commodo tempor sunt in proident.
       `
     };
   }
@@ -164,65 +144,47 @@ export default {
 }
 .timeline > li.timeline-inverted + li:not(.timeline-inverted),
 .timeline > li:not(.timeline-inverted) + li.timeline-inverted {
-margin-top: -60px;
+  margin-top: -60px;
 }
 
 .timeline > li:not(.timeline-inverted) {
-padding-right:90px;
+  padding-right: 90px;
 }
 
 .timeline > li.timeline-inverted {
-padding-left:90px;
+  padding-left: 90px;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
-  top: 40px;
-  right: -21px;
+  top: 32px;
+  right: -30px;
   display: inline-block;
   content: " ";
-  width: 20px;
+  width: 30px;
   height: 3px;
   background-color: #cacaca;
 }
 .timeline > li > .timeline-badge {
   color: #fff;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 1.4em;
+  width: 35px;
+  height: 35px;
+  line-height: 1;
+  font-size: 0.75rem;
   text-align: center;
   position: absolute;
   top: 16px;
   left: 50%;
-  margin-left: -25px;
-  background-color: #999999;
+  margin-left: -18px;
+  background-color: #f378de;
   z-index: 100;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-radius: 50%;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
-  left: -21px;
+  left: -30px;
   right: auto;
-}
-.timeline-badge.primary {
-  background-color: #2e6da4 !important;
-}
-.timeline-badge.success {
-  background-color: #3f903f !important;
-}
-.timeline-badge.warning {
-  background-color: #f0ad4e !important;
-}
-.timeline-badge.danger {
-  background-color: #d9534f !important;
-}
-.timeline-badge.info {
-  background-color: #5bc0de !important;
 }
 .timeline-title {
   margin-top: 0;

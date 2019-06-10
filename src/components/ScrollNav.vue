@@ -6,8 +6,10 @@
         v-for="item in titles"
         class="menu-item"
       >
-        <img :src="item.image" alt="FPF">
-        <a>{{ item.name }}</a>
+        <a>
+          <img :src="item.image" :alt="item.name">
+          <span class="d-none d-md-block">{{ item.name }}</span>
+        </a>
       </li>
     </ul>
   </div>
