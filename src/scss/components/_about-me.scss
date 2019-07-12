@@ -6,6 +6,16 @@
     font-family: "Sacramento", cursive;
     font-size: 2rem;
     margin-top: 15px;
+    @include media-breakpoint-down(sm){
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+  &__description {
+    text-align: right;
+    @include media-breakpoint-down(sm){
+      text-align: center;
+    }
   }
   .avatar {
     width: 180px;
@@ -36,8 +46,8 @@
     &__icon {
       position: absolute;
       top: 0;
-      left: 50%;
-      right: 50%;
+      left: 47%;
+      right: 47%;
       background: theme-color('primary');
       border-radius: 50%;
       width: 45px;

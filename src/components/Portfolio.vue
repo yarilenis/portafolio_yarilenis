@@ -4,8 +4,8 @@
       <h1 id="timeline">Portafolio</h1>
     </div>
     <div class="row">
-      <div class="col-12 col-sm-6 col-md-4 py-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-sm-6 col-lg-4 py-3">
+        <div class="card">
           <a href="#" @click.prevent="$bvModal.show('bv-modal-example')">
             <img
               class="card-img-top"
@@ -25,8 +25,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 py-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-sm-6 col-lg-4 py-3">
+        <div class="card">
           <a href="#" @click.prevent="$bvModal.show('bv-modal-example')">
             <img
               class="card-img-top"
@@ -46,8 +46,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 py-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-sm-6 col-lg-4 py-3">
+        <div class="card">
           <a href="#" @click.prevent="$bvModal.show('bv-modal-example')">
             <img
               class="card-img-top"
@@ -67,8 +67,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 py-3">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-sm-6 col-lg-4 py-3">
+        <div class="card">
           <a href="#" @click.prevent="$bvModal.show('bv-modal-example')">
             <img
               class="card-img-top"

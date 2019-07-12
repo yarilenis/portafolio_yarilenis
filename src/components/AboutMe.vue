@@ -3,15 +3,14 @@
     <div class="row">
       <div class="col-12 about-me__box mt-5">
         <div class="row">
-          <div class="col-12 col-md-4 mt-4 text-center">
+          <div class="col-12 col-lg-5 mt-4 text-center about-me__description">
             <div class>
               <img src="/images/photo.jpg" alt="Photo" class="avatar rounded-circle" style>
             </div>
             <p class="about-me__name">Yarilenis Laverde</p>
-            <p class="text-right">Desarrollador Web</p>
+            <p>Desarrollador Web</p>
           </div>
-          <div class="col-12 col-md-8 mt-4 pb-4">
-            <h2>Sobre mi</h2>
+          <div class="col-12 col-lg-7 mt-4 pb-4">
             <div class="mt-5">
               <p class="mb-0">
                 <span class="text-pink">
